@@ -7,6 +7,4 @@ $('#tabs-nav li').click(function(){
   $('#tabs-nav li').removeClass('active');
   $(this).addClass('active');
   $('.tab-content').hide();
-  
-
-});
+  });
