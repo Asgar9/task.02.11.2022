@@ -8,7 +8,5 @@ $('#tabs-nav li').click(function(){
   $(this).addClass('active');
   $('.tab-content').hide();
   
-  var activeTab = $(this).find('a').attr('href');
-  $(activeTab).fadeIn();
-  return false;
+
 });
