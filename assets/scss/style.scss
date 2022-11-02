@@ -1,0 +1,36 @@
+.tabs {
+    width: 600px;
+    background-color:wheat;
+    border-radius:  5px;
+    .tab-content {
+        padding: 20px;
+        border: 5px solid wheat;
+        background-color: white;
+      }
+  }
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+    li {
+        float: left;
+        font-weight: bold;
+        margin-right: 2px;
+        padding: 8px 10px;
+        border-radius: 5px ;
+        /*border: 1px solid #d5d5de;
+        border-bottom: none;*/
+        cursor: pointer;
+        a {
+            text-decoration: none;
+            color: white;
+          }
+        &:hover {
+            background-color: wheat;
+        }       
+      }
+      li.active {
+        background-color: wheat;
+      }
+  }
